@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Sobre o aplicativo"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Este app é um Quiz de Personalidade que avalia hábitos e preferências do usuário e gera um perfil resumido."
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Tecnologias utilizadas:\n- Activities\n- Fragment funcional\n- Intents explícitas e implícitas\n- Views: TextView, Button, EditText, ImageView, RadioButton\n- Layouts responsivos"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Desenvolvido por: FRANC WANG CHENG"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- 👇 这里是 Voltar 按钮 -->
+        <Button
+            android:id="@+id/btn_voltar_sobre"
+            android:text="Voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+</ScrollView>
