@@ -57,5 +57,5 @@ O usuário responde perguntas simples sobre hábitos e, ao final, recebe um **pe
 
 ## 👨‍💻 Autor
 
-Desenvolvido por: **Seu Nome**
+Desenvolvido por: **Franc**
 
